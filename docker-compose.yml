@@ -1,4 +1,3 @@
-version: '3.8'
 services:
   acestream:
     image: smarquezp/docker-acestream-ubuntu-home:latest

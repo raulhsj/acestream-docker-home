@@ -8,6 +8,8 @@ ARG ACESTREAM_SHA256=ad11060410c64f04c8412d7dc99272322f7a24e45417d4ef2644b26c64a
 ENV INTERNAL_IP=127.0.0.1
 ENV LANG=C.UTF-8
 ENV LC_ALL=C.UTF-8
+ENV HTTP_PORT=6878
+ENV HTTPS_PORT=6878
 
 # Copy the requirements.txt file into the build context.
 COPY config/requirements.txt /requirements.txt
