@@ -43,7 +43,7 @@ docker build --no-cache -t docker-acestream .
 Para iniciar un contenedor y ejecutar Acestream con asignación dinámica de puertos:
 
 ```bash
-docker run --name docker-acestream -d -p 6878:6878 -e INTERNAL_IP=127.0.0.1 --restart unless-stopped docker-acestream
+docker run --name docker-acestream -d -p 6878:6878 -e INTERNAL_IP=127.0.0.1 docker-acestream
 ```
 
 El script `SetupAcestream.bat` maneja la asignación dinámica de puertos para evitar conflictos al ejecutar múltiples

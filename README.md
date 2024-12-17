@@ -40,7 +40,7 @@ docker build --no-cache -t docker-acestream .
 To start a container and run Acestream with dynamic port assignment:
 
 ```bash
-docker run --name docker-acestream -d -p 6878:6878 -e INTERNAL_IP=127.0.0.1 --restart unless-stopped docker-acestream
+docker run --name docker-acestream -d -p 6878:6878 -e INTERNAL_IP=127.0.0.1 docker-acestream
 ```
 
 The `SetupAcestream.bat` script handles the dynamic assignment of ports to prevent conflicts when running multiple
