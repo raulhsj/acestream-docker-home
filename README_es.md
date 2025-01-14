@@ -54,7 +54,7 @@ instancias.
 1. **Iniciar el Contenedor**: Usa `docker-compose` para iniciar el contenedor:
 
    ```bash
-   docker-compose up -d
+   docker-compose up -d --build
     ```
 
 2. **Actualizar la Imagen**: Para obtener la última versión de la imagen:
